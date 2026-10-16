@@ -4,10 +4,6 @@ public class TemperatureSensor extends Sensor {
     public TemperatureSensor() {
     }
 
-    public TemperatureSensor(String id, String location) {
-        super(id, location);
-    }
-
     public TemperatureSensor(String sensorModel, String id, String location, boolean triggered) {
         super(sensorModel, id, location, triggered);
     }
