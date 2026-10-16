@@ -30,6 +30,6 @@ public class TemperatureSensor extends Sensor {
 
     @Override
     public void getLabel() {
-        super.getLabel();
+        System.out.println(" |Sensortyp: " + getSensorModel() + "\n |TemperaturSensorID: " + getId() + "\n |TemperaturSensorplats: " + getLocation() + " \n |TemperaturSensor utlöst?: " + isTriggered() + "\n_________________________");
     }
 }
