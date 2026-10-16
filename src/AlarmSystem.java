@@ -1,7 +1,4 @@
-import Sensors.Sensor;
-import Sensors.DoorSensor;
-import Sensors.MotionSensor;
-import Sensors.SmokeSensor;
+import Sensors.*;
 
 import java.util.ArrayList;
 
@@ -14,6 +11,7 @@ public class AlarmSystem {
     MotionSensor M2 = new MotionSensor("Rörelsesensor ", "M2", "Office ", false);
     DoorSensor D1 = new DoorSensor("Dörrsensor ", "D1", "Hall ", false);
     DoorSensor D2 = new DoorSensor("Dörrsensor ", "D2", "Garage ", false);
+    TemperatureSensor T1 = new TemperatureSensor("Temperatursensor", "T1", "Hall", false);
 
     ArrayList<Sensor> sensors = new ArrayList<>();
 
